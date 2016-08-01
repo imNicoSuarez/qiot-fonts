@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'qiot-font';
-  src:  url('fonts/qiot-font.eot?vcu6ot');
-  src:  url('fonts/qiot-font.eot?vcu6ot#iefix') format('embedded-opentype'),
-    url('fonts/qiot-font.ttf?vcu6ot') format('truetype'),
-    url('fonts/qiot-font.woff?vcu6ot') format('woff'),
-    url('fonts/qiot-font.svg?vcu6ot#qiot-font') format('svg');
+  src:  url('/fonts/qiot-font.eot?vcu6ot');
+  src:  url('/fonts/qiot-font.eot?vcu6ot#iefix') format('embedded-opentype'),
+    url('/fonts/qiot-font.ttf?vcu6ot') format('truetype'),
+    url('/fonts/qiot-font.woff?vcu6ot') format('woff'),
+    url('/fonts/qiot-font.svg?vcu6ot#qiot-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
