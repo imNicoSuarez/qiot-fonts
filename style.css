@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'qiot-font';
-  src:  url('fonts/qiot-font.eot?l71si3');
-  src:  url('fonts/qiot-font.eot?l71si3#iefix') format('embedded-opentype'),
-    url('fonts/qiot-font.ttf?l71si3') format('truetype'),
-    url('fonts/qiot-font.woff?l71si3') format('woff'),
-    url('fonts/qiot-font.svg?l71si3#qiot-font') format('svg');
+  src:  url('fonts/qiot-font.eot?qhxjra');
+  src:  url('fonts/qiot-font.eot?qhxjra#iefix') format('embedded-opentype'),
+    url('fonts/qiot-font.ttf?qhxjra') format('truetype'),
+    url('fonts/qiot-font.woff?qhxjra') format('woff'),
+    url('fonts/qiot-font.svg?qhxjra#qiot-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic-qiot-close:before {
+  content: "\e906";
+}
 .ic-qiot-danger:before {
   content: "\e900";
 }
