@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'qiot-font';
-  src:  url('fonts/qiot-font.eot?qhxjra');
-  src:  url('fonts/qiot-font.eot?qhxjra#iefix') format('embedded-opentype'),
-    url('fonts/qiot-font.ttf?qhxjra') format('truetype'),
-    url('fonts/qiot-font.woff?qhxjra') format('woff'),
-    url('fonts/qiot-font.svg?qhxjra#qiot-font') format('svg');
+  src:  url('fonts/qiot-font.eot?2i82fb');
+  src:  url('fonts/qiot-font.eot?2i82fb#iefix') format('embedded-opentype'),
+    url('fonts/qiot-font.ttf?2i82fb') format('truetype'),
+    url('fonts/qiot-font.woff?2i82fb') format('woff'),
+    url('fonts/qiot-font.svg?2i82fb#qiot-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-.ic-qiot {
+.ic-icon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'qiot-font' !important;
   speak: none;
@@ -24,6 +24,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic-qiot-collapse:before {
+  content: "\e907";
+}
+.ic-qiot-expand:before {
+  content: "\e908";
+}
+.ic-qiot-plus:before {
+  content: "\e909";
+}
 .ic-qiot-close:before {
   content: "\e906";
 }
