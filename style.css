@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'qiot-font';
-  src:  url('fonts/qiot-font.eot?tbutd1');
-  src:  url('fonts/qiot-font.eot?tbutd1#iefix') format('embedded-opentype'),
-    url('fonts/qiot-font.ttf?tbutd1') format('truetype'),
-    url('fonts/qiot-font.woff?tbutd1') format('woff'),
-    url('fonts/qiot-font.svg?tbutd1#qiot-font') format('svg');
+  src:  url('fonts/qiot-font.eot?rknu0e');
+  src:  url('fonts/qiot-font.eot?rknu0e#iefix') format('embedded-opentype'),
+    url('fonts/qiot-font.ttf?rknu0e') format('truetype'),
+    url('fonts/qiot-font.woff?rknu0e') format('woff'),
+    url('fonts/qiot-font.svg?rknu0e#qiot-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-.ic-qiot{
+.ic-qiot {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'qiot-font' !important;
   speak: none;
@@ -24,43 +24,55 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ic-qiot-view-card:before {
-  content: "\e90a";
-}
-.ic-qiot-view-list:before {
-  content: "\e90b";
-}
 .ic-qiot-collapse:before {
-  content: "\e907";
+  content: "\e900";
 }
 .ic-qiot-expand:before {
+  content: "\e901";
+}
+.ic-qiot-close:before {
+  content: "\e902";
+}
+.ic-qiot-collapse-all:before {
+  content: "\e903";
+}
+.ic-qiot-collection:before {
+  content: "\e904";
+}
+.ic-qiot-danger:before {
+  content: "\e905";
+}
+.ic-qiot-expand-all:before {
+  content: "\e906";
+}
+.ic-qiot-info:before {
+  content: "\e907";
+}
+.ic-qiot-logo:before {
   content: "\e908";
 }
 .ic-qiot-plus:before {
   content: "\e909";
 }
-.ic-qiot-close:before {
-  content: "\e906";
-}
-.ic-qiot-danger:before {
-  content: "\e900";
-}
-.ic-qiot-info:before {
-  content: "\e903";
+.ic-qiot-selected:before {
+  content: "\e90a";
 }
 .ic-qiot-success:before {
-  content: "\e904";
-}
-.ic-qiot-warning:before {
-  content: "\e905";
-}
-.ic-qiot-collection:before {
-  content: "\1f304";
-}
-.ic-qiot-logo:before {
-  content: "\e901";
+  content: "\e90b";
 }
 .ic-qiot-thing:before {
-  content: "\e902";
+  content: "\e90c";
+}
+.ic-qiot-unselected:before {
+  content: "\e90d";
+}
+.ic-qiot-view-card:before {
+  content: "\e90e";
+}
+.ic-qiot-view-list:before {
+  content: "\e90f";
+}
+.ic-qiot-warning:before {
+  content: "\e910";
 }
 
