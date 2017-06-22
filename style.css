@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'qiot-font';
-  src:  url('fonts/qiot-font.eot?rknu0e');
-  src:  url('fonts/qiot-font.eot?rknu0e#iefix') format('embedded-opentype'),
-    url('fonts/qiot-font.ttf?rknu0e') format('truetype'),
-    url('fonts/qiot-font.woff?rknu0e') format('woff'),
-    url('fonts/qiot-font.svg?rknu0e#qiot-font') format('svg');
+  src:  url('fonts/qiot-font.eot?orht84');
+  src:  url('fonts/qiot-font.eot?orht84#iefix') format('embedded-opentype'),
+    url('fonts/qiot-font.ttf?orht84') format('truetype'),
+    url('fonts/qiot-font.woff?orht84') format('woff'),
+    url('fonts/qiot-font.svg?orht84#qiot-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,55 +24,75 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic-qiot-fota:before {
+  content: "\e911";
+  color: #7d7d7d;
+}
 .ic-qiot-collapse:before {
   content: "\e900";
+  color: #7d7d7d;
 }
 .ic-qiot-expand:before {
   content: "\e901";
+  color: #7d7d7d;
 }
 .ic-qiot-close:before {
   content: "\e902";
+  color: #7d7d7d;
 }
 .ic-qiot-collapse-all:before {
   content: "\e903";
+  color: #7d7d7d;
 }
 .ic-qiot-collection:before {
   content: "\e904";
+  color: #7d7d7d;
 }
 .ic-qiot-danger:before {
   content: "\e905";
+  color: #7d7d7d;
 }
 .ic-qiot-expand-all:before {
   content: "\e906";
+  color: #7d7d7d;
 }
 .ic-qiot-info:before {
   content: "\e907";
+  color: #808080;
 }
 .ic-qiot-logo:before {
   content: "\e908";
+  color: #808080;
 }
 .ic-qiot-plus:before {
   content: "\e909";
+  color: #7d7d7d;
 }
 .ic-qiot-selected:before {
   content: "\e90a";
+  color: #7d7d7d;
 }
 .ic-qiot-success:before {
   content: "\e90b";
+  color: #7d7d7d;
 }
 .ic-qiot-thing:before {
   content: "\e90c";
+  color: #7d7d7d;
 }
 .ic-qiot-unselected:before {
   content: "\e90d";
+  color: #7d7d7d;
 }
 .ic-qiot-view-card:before {
   content: "\e90e";
+  color: #7d7d7d;
 }
 .ic-qiot-view-list:before {
   content: "\e90f";
+  color: #7d7d7d;
 }
 .ic-qiot-warning:before {
   content: "\e910";
+  color: #7d7d7d;
 }
-
